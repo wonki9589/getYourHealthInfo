@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="stylesheet" href="main.css">  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <title>proj2</title>
+
+</head>
+<body>
+    <div class="title">
+         <div class="title_menu">
+            <div class="title_menu_name">
+                    <h1>MY PROJ2</h1>
+            </div>
+        </div>
+
+        <div class="title_search">
+            <nav class="navbar navbar-light bg-light">
+                <div class="container-fluid">
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+    
+                </div>
+              </nav>
+        </div>
+         
+         <div class="title_acount">
+             <div class="title_acount1" >
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                    <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                  </svg>
+             </div>
+             <div class="title_acount2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                  </svg>
+             </div>
+         </div>
+    </div>
+    <!-- title -->
+            <ul class="nav">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">BMI</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">표준 체중</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">하루 권장 칼로리</a>
+                </li>
+                
+            </ul>
+            
+      <!-- kategorie -->
+            <ul class="nav2">
+                <li class="nav-list1">운동 목적</li>
+                <li class="nav-list2">식이 요법</li>
+                <li class="nav-list3">비 타 민</li>
+            </ul>
+
+        <div class="slideImage">               
+          <div class="slideshow-container">
+             <div class="mySlides fade">              
+                <img src="image/image1.jpeg" style="width:100%;">              
+             </div>
+            <div class="mySlides fade">
+                <img src="image/image2.jpeg" style="width:100%">      
+            </div>
+            <div class="mySlides fade">  
+               <img src="image/image3.jpeg" style="width:100%"> 
+            </div>
+          </div>
+                 <br>
+             <div style="text-align:center">
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+             </div>                  
+        </div>
+        <!-- slide -->
+
+        <div class="calculator">
+            <div class="calculator-title">
+                <h2 style="margin-bottom: 20px;">현재 내 몸 상태는 ?</h2>
+                <p>신체조건과 체질량 지수 및 생활습관을 분석합니다 </p>
+            </div>
+        </div>
+        <hr>
+        <!-- man or woman -->
+        <div class="wrapper">
+        <div class="container">
+            <div class="container-1">
+                <div class="container-left-man"style="float: left; width: 50%;">
+
+                    <div  class="container-man">     
+                        <div class="container-man-icon">
+                            <svg class="container-man-svg" xmlns="http://www.w3.org/2000/svg" width="66" height="66" fill="currentColor" class="bi bi-gender-male" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M9.5 2a.5.5 0 0 1 0-1h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V2.707L9.871 6.836a5 5 0 1 1-.707-.707L13.293 2H9.5zM6 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/>
+                            </svg>
+                        </div>
+                        <div class="container-man-radio">
+                            <input type="radio" name="radio1" checked="checked" value="1" class="checkbox1">
+                            <label for="radio1">남성</label>
+                        </div>
+                     </div>
+                </div>
+
+               <div class="container-left-woman" style="float: left; width: 50%;">
+                    <div class="container-woman">
+                        <div class="container-woman-icon">
+                            <svg class="container-woman-svg"xmlns="http://www.w3.org/2000/svg" width="66" height="66" fill="currentColor" class="bi bi-gender-female" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M8 1a4 4 0 1 0 0 8 4 4 0 0 0 0-8zM3 5a5 5 0 1 1 5.5 4.975V12h2a.5.5 0 0 1 0 1h-2v2.5a.5.5 0 0 1-1 0V13h-2a.5.5 0 0 1 0-1h2V9.975A5 5 0 0 1 3 5z"/>
+                            </svg>
+                        </div>
+                        <div class="container-woman-radio">
+                            <input type="radio" name="radio1"  value="1" class="checkbox1">
+                            <label for="radio2">여성</label>
+                        </div>
+                     </div>
+               </div>
+            </div>
+        </div>
+         <!-- man or woman check -->
+         <div class="container2">
+         <div class="age">
+             <label class="age-label" for="나이">나 이</label>
+             <div class="age-check">
+                <input oninput="slider('myRange','value')" class="age-check-range" id="myRange" name="age-check" data-js-element="age-range-slider" type="range" value="0" step="1" min="18" max="70" style="background-size: 0% 100%;">
+                <div class="age-check-box"> 
+                    <p> <span id="value"></span> </p>
+                </div>
+             </div>
+         </div> 
+        
+         <div class="height">
+            <label class="height-label" for="키">키</label>
+            <div class="height-check">
+               <input oninput="slider('myRange2','value2')" class="height-check-range"  id="myRange2"name="height-check" data-js-element="height-range-slider" type="range" value="0" step="1" min="130" max="220" style="background-size: 0% 100%;">
+               <div class="height-check-box"> 
+                   <p><span id="value2"></span></p>
+               </div>
+            </div>
+        </div>
+        <div class="weight">
+            <label class="weight-label" for="몸무게">몸무게</label>
+            <div class="weight-check">
+               <input oninput="slider('myRange3','value3')" class="weight-check-range" id="myRange3" name="weight-check" data-js-element="weight-range-slider" type="range" value="0" step="1" min="50" max="120" style="background-size: 0% 100%;">
+               <div class="weight-check-box">
+                   <p><span id="value3"></span></p>
+               </div>
+            </div>
+        </div>
+      </div>
+         <!-- 나이 키 체중  -->
+
+         <div class="workout">
+             <select id="workoutSelect" class="workout-Select" style="width: 60%; height: auto; text-align: center;" name="select" onchange="activityLevel(this)">
+                <option value="0">활동 수준</option>
+                <option value="25">가벼운 활동</option>
+                <option value="30">중정도 활동</option>
+                <option value="35">심한 활동</option>
+            </select>
+         </div>
+ 
+         <div class="container3">
+             <input type="button" id="resultBtn" value="체질량 지수(BMI) 계산"onclick=resultBMI(this)>
+            <!-- <button class="button">체지량 지수 계산</button> -->
+         </div>
+          <hr>
+         <!-- 버튼 -->
+         <div class="container4">
+            <div class="bmiResult">
+                <h2> 나의 체지량 지수(BMI) 결과</h2>
+            </div>
+           
+         
+                <div class="bmiResult-scale">
+                    <div class="scale-under" aria-hidden="true">
+                        <span class="scale-range">저체중
+                            <hr class="scale-line1" style="height: 5px;">
+                     </span></div>
+
+                    <div class="scale-normal" aria-hidden="true">
+                        <span class="scale-range">정상
+                            <hr class="scale-line2"style="height: 5px;">
+                    </span></div>
+
+                    <div class="scale-over" aria-hidden="true">
+                        <span class="scale-range">과체중
+                            <hr class="scale-line3"style="height: 5px;">
+                    </span></div>
+
+                    <div class="scale-obese" aria-hidden="true">
+                        <span class="scale-range">비만
+                            <hr class="scale-line4"style="height: 5px;">
+                    </span></div>
+
+                </div>
+               
+            </div>
+         </div>
+        </div>
+        <!-- bmi 표시 -->
+        <div class="bmi-result">
+            <p id="bmiResult" style="font-weight: bold; color: darkcyan; font-size: 20px;"  > </p>
+        </div>
+        <!-- bmi 결과값 -->
+       
+        <div class="bmitext">
+            <div class="bmitextCenter">
+                <div class="bmitextWidget">
+                    <h2>체질량 지수 이해하기:</h2>
+                    <br>
+                    <p>체중계 상의 숫자에 연연하기 보다 신장과 체중을 이용하여, 여러분의 체중이 어느 범위에 속하는지 알아볼 수 있는 지표입니다.</p>
+                    <br>
+                    <h2>BMI(체질량 지수)범위:</h2>
+                    <br>
+                    <p><strong>18.5</strong> 이하 - 당신은 저체중 범주에 속합니다. 충분한 영양 공급 또는 의사와의 상담을 통해 정상체중을 유지해주세요.</p>
+                    <p><strong>18.5 - 24.9</strong> 사이 - 당신은 정상 체중 범주에 속합니다. 앞으로도 잘해주세요!</p>
+
+                    <p><strong>25 -29.9</strong>사이 - 당신은 과체중 범주에 속합니다. 당신은 많은 체지방 혹은 근육을 가지고 있습니다. 꾸준한 운동과 건강한 식단을 지켜주세요.</p>
+                    <p><strong>30</strong>이상 - 당신은 비만 범주에 속합니다. 꾸준한 운동과 건강한 식단을 지켜주세요.</p>
+                  <br> 
+                </div>
+            </div>
+            <hr>
+            <!-- bmi 설명 -->
+            <div class="container5">
+            <div class="calories">
+                <h2> 표준 체중</h2>
+                <p id="caloriesResult">""</p>
+                <br>
+                <h2>하루 권장 칼로리</h2>
+                <p id=standardWeight></p>
+                <br>
+                <input type="button" id="caloriesBtn" value="표준 체중 계산" onclick="inputkey()"> 
+            </div>
+                     <br>
+                    <br>
+                 <hr>
+                 <h2>표준 체중 이해하기 :</h2>
+                 <br>
+                 <p>표준체중이란 각 개인의 키에 적당한 체중을 말한다. 자신의 키에 적절한 표준 체중을 구하는 가장 일반적인 방법으로 신장과 체중을 알면 쉽게 계산할 수 있다.표준체중이란 각 개인의 키에 적당한 체중을 말한다. 자신의 키에 적절한 표준 체중을 구하는 가장 일반적인 방법으로 신장과 체중을 알면 쉽게 계산할 수 있다.</p>
+                 <br> 
+                 <h2>하루 권장 칼로리</h2>
+                 <br>
+                 <p><strong>하루 권장 칼로리란 표준체중(kg) * 활동지수</strong></p>
+                 <br>
+                 <div class="img">  
+                     <img src="/image/image4.jpeg" alt="" style="width: 500px ; height: auto;">
+                 </div>
+        </div>
+       <script src="main.js"></script>
+</body>
+</html>  

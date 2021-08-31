@@ -1,0 +1,428 @@
+
+
+.title {
+    display: flex;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 0;
+    border-bottom-width: 0;
+    height: auto;
+}
+
+.title_menu {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top; 
+    text-align: center;
+}
+.title_menu_name h1 {
+    font-size: 30px;
+    padding: 10px 10px 10px 10px;
+   
+}
+.title_search {
+   
+    width: 700px;
+    display: inline-block;
+    vertical-align: top; 
+    margin-right: 200px;
+    margin-top: 20px;
+    
+  
+}
+.title_acount {
+    display: flex;  
+    vertical-align: center; 
+    align-items: center;
+}
+.title_acount1,
+.title_acount2 {
+    padding-left:50px;
+}
+/* title */
+
+.nav2{  
+   text-align: center;
+   padding:8px 20px;
+    font-size: 15px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav2 ul {
+    text-align: center;
+}
+.nav2 li {
+    display: inline-block;
+    list-style: none;
+    flex: 1;
+    padding: 8px 20px;
+    flex-basis: auto;
+}
+
+
+
+/* nav2 */
+.nav {
+    display: flex;
+    overflow: visible;
+    background-color: transparent;
+    border: 1px solid darkcyan;
+    background-color: darkcyan;
+}
+.nav-item a {
+    color:white;
+}
+
+/* nav */
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+ }
+
+@-webkit-keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+ }
+
+@keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+ }
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+.text {font-size: 11px}
+ }
+.slideImage {
+    text-align: center;
+
+}
+.slideImage img {
+   max-width: auto;
+    height: 300px;
+}
+
+/* slide */
+
+.calculator {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.calculator-title  {
+    font-family: Biotif,"Noto Sans","Noto Sans JP","Noto Sans KR",Helvetica;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 3rem;
+    color: #1a1a1a;
+    letter-spacing: -.7px;
+    text-align: center;
+    margin-bottom: 24px;
+    padding: 50px;
+}
+.calculator p {
+   
+    font-size: 20px;
+    line-height: 1.5rem;
+    color: #1a1a1a;
+    text-transform: none;
+    letter-spacing: .2px;
+    text-align: center;
+}
+/* calculator title */
+
+.container-1 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+   width: 100%;
+    max-width: 100%;
+    height: auto;   
+    
+}
+
+.container-man,
+.container-woman {
+    position: relative;
+    justify-content: center;
+    flex-basis: 134px;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+}
+.container-man-icon,
+.container-woman-icon{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+   
+}
+.container-man-radio
+.container-woman-radio{
+    display: inline-flex;
+    align-items: center;
+   
+}
+
+input[type='radio']:checked {
+  appearance: none;
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 100%;
+  margin-right: 0.1rem;
+  background-color: darkcyan;
+}
+/*  man or woman check */
+.container2 {
+    margin:0 200px 0 200px;
+   
+}
+.age ,
+.height,
+.weight{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.age-label,
+.height-label,
+.weight-label {
+    display: inline-block;
+    margin-bottom: 4px;
+    margin-left: 16px;
+}
+.age-check,
+.height-check,
+.weight-check{
+    display: flex;
+    align-items: center;
+    width: auto;
+   
+}
+.age-check-range,
+.height-check-range,
+.weight-check-range {
+    margin: 16px 16px;
+    width: 100%;
+    background-color: #fff;
+    background-image: -webkit-gradient(linear,50% 0,50% 100%,color-stop(0%,#008190),color-stop(100%,#008190));
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+    margin-right: 0;
+    padding:0;
+    margin:0;
+    background-size:0% 100%;
+}
+input[type='range'] {
+    overflow: hidden;
+    width: 80%;
+    background-color: #9a90;
+  }
+input[type='range']:focus {
+    outline: none;
+    background-color: darkcyan;
+    cursor: pointer;
+  }
+.age-check-box,
+.height-check-box,
+.weight-check-box {
+    position:relative;
+    margin-left: 8px;
+    width: auto;
+   
+}
+/* 나이 키 체중 */
+select {
+  
+        text-align-last: center;
+        text-align: center;
+        -ms-text-align-last: center;
+        -moz-text-align-last: center;
+       
+}
+.workout {
+    padding:20px;
+    font-size: 15px;
+    text-align: center;
+    margin:0px 200px 0 200px;
+}
+.container3 {
+    padding: 50px;
+    margin-top: 50px;
+    text-align: center;
+    margin: 0 200px 0 200px;
+    
+   
+
+}
+#resultBtn,
+#caloriesBtn{
+    background: #008190;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #008190;
+    border-radius: 3px;
+    font-family: Biotif,"Noto Sans","Noto Sans JP","Noto Sans KR",Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    color: #fff;
+    line-height: 1.5rem;
+    display: inline-flex;
+    text-decoration: none;
+    transition: background .2s;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    box-shadow: 0 2px 1px 0 #00262a;
+    white-space: nowrap;
+    width: auto;
+    box-sizing: border-box;
+    margin-top: 16px;
+    width: auto;
+    align-self: center;
+}
+/*  버튼 */
+.container4,
+.container5 {
+    margin-top: 100px;
+    margin-left: 16px;
+    margin-right: 16px;
+    text-align: center;
+}
+.bmiResult h2,
+.calories h2 {
+    font-family: Biotif,"Noto Sans","Noto Sans JP","Noto Sans KR",Helvetica;
+    font-weight: 400;
+    font-size: 1.61rem;
+    line-height: 2rem;
+    color: #1a1a1a;
+    text-transform: none;
+    letter-spacing: -.5px;
+    color: #008190;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.wrapper {
+   width: 100%;
+   
+  
+}
+.bmiResult-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.bmiResult-range {
+    /* visibility: hidden; */
+}
+.bmiResult-rangePointer {
+    position: relative;
+    display: inline;
+    transition: left 2s ease;
+    left: 0;
+}
+.bmiResult-rangePointer::before{
+    content: "";
+    transform: translate(50%,-100%);
+    border-style: solid;
+    border-width: 20px 10px 0 10px;
+    border-color: #4d4f53 transparent transparent transparent;
+    position: absolute;
+    right: 0;
+    width: 0;
+    height: 0;
+}
+
+
+.scale-under,
+.scale-nomal,
+.scale-over,
+.scale-obese {
+    flex-basis: 95px;
+}
+.scale-range {
+    font-family: Biotif,"Noto Sans","Noto Sans JP","Noto Sans KR",Helvetica;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #1a1a1a;
+    text-transform: none;
+    letter-spacing: .2px;
+    padding: 0 8px;
+}
+.bmiResult-scale{
+    width: 100%;
+    text-align: center;
+}
+.bmiResult-scale div {   
+    display: inline-block;
+    padding-right: 100px;
+}
+.scale-line1{
+    color:blue;
+    
+}
+.scale-line2 {
+    color:green;
+  
+}
+.scale-line3 {
+    color:orange;
+}
+.scale-line4 {
+    color:red;
+}
+/*  */
+
+.bmi-result {
+    padding: 50px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+#bmiResult {
+    font-family: Biotif,"Noto Sans","Noto Sans JP","Noto Sans KR",Helvetica;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #1a1a1a;
+    text-transform: none;
+    letter-spacing: .2px;
+}
+/* 결과값 표시 */
+
+.bmitext {
+    margin-left: 20%;
+    margin-right: 20%;
+  
+    
+}
+.bmitextCenter {
+    text-align: center;
+}
+.bmitextWidget {
+    font-family: Biotif,"Noto Sans","Noto Sans JP","Noto Sans KR",Helvetica;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #1a1a1a;
+    text-transform: none;
+    letter-spacing: .2px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    display: block;
+}
+/* calories */
