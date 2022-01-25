@@ -1,6 +1,6 @@
 # getYourHealthInfo
 
-### 1. ### 사용한언어
+### 1.사용한언어
     html , css ,js , jQuery , bootstrap
 
 
